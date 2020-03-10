@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "0c4474025f6add65f3659970fb42f9ba",
     "packages": [
+        {
+            "name": "cossou/jasperphp",
+            "version": "2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cossou/JasperPHP.git",
+                "reference": "d24bc69aaaf55beb2a76a0db2a572e81f6baee09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cossou/JasperPHP/zipball/d24bc69aaaf55beb2a76a0db2a572e81f6baee09",
+                "reference": "d24bc69aaaf55beb2a76a0db2a572e81f6baee09",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JasperPHP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hélder Duarte",
+                    "email": "cossou@gmail.com"
+                }
+            ],
+            "description": "Create Reports in PHP with JasperReports",
+            "homepage": "https://github.com/cossou/JasperPHP",
+            "keywords": [
+                "jasper",
+                "jasperreports",
+                "java",
+                "pdf",
+                "reports"
+            ],
+            "time": "2018-11-16T11:45:31+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
@@ -678,6 +719,50 @@
                 "psysh"
             ],
             "time": "2019-08-07T15:10:45+00:00"
+        },
+        {
+            "name": "lavela/phpjasper",
+            "version": "v3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lavela/phpjasper.git",
+                "reference": "d3d7bbc7d1d78766dd5c554189ba1680b9b0517a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lavela/phpjasper/zipball/d3d7bbc7d1d78766dd5c554189ba1680b9b0517a",
+                "reference": "d3d7bbc7d1d78766dd5c554189ba1680b9b0517a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPJasper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leandro Cintra Bitencourt",
+                    "email": "leandrobitencourt.ti@gmail.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "Gerador de relatórios PHP",
+            "keywords": [
+                "pdf",
+                "relatórios"
+            ],
+            "time": "2018-03-07T17:22:33+00:00"
         },
         {
             "name": "league/flysystem",
